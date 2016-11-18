@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <title>nikeAddToCart</title>
+        <script src="script/popupWindow.js"></script>
+        <script src="script/jquery.min.js"></script>
+        <style>
+          .run {
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+          }
+          .run a {
+            color:white;
+            background:#FA5400;
+            padding:10px 20px;
+            text-decoration: none;
+            border-radius: 2px;
+            font-size: 16px;
+          }
+          .run a:hover, .run a:focus {
+            color:#FDF5E6;
+            border:0;
+          }
+        </style>
+    </head>
+    <body style="width:350px; height:100px">
+        <h4 style="text-align:center" id="currentTab">test</h4>
+        <hr>
+        <p style="text-align:center">
+          <b>Размер:</b>
+          <input type="text" id="sizeInput" size="15" value="12"> &nbsp;
+          <b>Количество:</b>
+          <input type="text" id="amountInput" size="15" value="1">
+        </p>
+        <hr>
+        <p class="run"><a id="run" href="javascript:">Запустить</a></p>
+        <hr>
+        <p>Как пользоваться:
+        <ul>
+          <li>Перейдите на страницу с выбранной парой обуви</li>
+          <li>Кликните по иконке расширения в панели</li>
+          <li>Выберите размер и количество</li>
+          <li>Кликните по кнопке `Запустить`</li>
+        </ul>
+        </p>
+        <p>Индикатором успешной работы скрипта является мигающий логотип `Nike` в меню сайта.</p>
+        <p></p>
+        <p><b>При закрытии вкладки с запущенным скриптом, работа скрипта прекращается!</b> Чтобы возобновить мониторинг, повторите действия, описанные выше.</p>
+        <br>
+    </body>
+</html>

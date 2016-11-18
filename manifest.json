@@ -1,0 +1,35 @@
+{
+    "manifest_version": 2,
+
+    "name": "Nike Automatic Add To Cart",
+    "description": "Добавляет в корзину выбранный товар в интернет-магазине nike.com/ru/*",
+    "version": "1.0.1",
+
+    "browser_action": {
+        "default_icon": "img/nike.png",
+        "default_popup": "popup.html"
+    },
+
+    "icons": { "16": "img/nike_16.png",
+               "48": "img/nike_48.png",
+              "128": "img/nike_128.png" },
+
+   "content_scripts": [
+        {
+          "matches": [ "*://store.nike.com/*" ],
+          "js": [ "script/jquery.min.js", "script/background.js" ],
+          "run_at": "document_end"
+        }
+    ],
+
+    "web_accessible_resources": [
+        "script/nikeAddToCart.js"
+    ],
+
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "*://store.nike.com/*"
+    ]
+
+}
