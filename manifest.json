@@ -23,7 +23,7 @@
     ],
 
     "web_accessible_resources": [
-        "script/nikeAddToCart.min.js"
+        "script/nikeAddToCart.js"
     ],
 
     "permissions": [

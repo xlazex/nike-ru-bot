@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
           console.log('Chosen Amount: '+chAmount);
         });
         $('#run').click(function(){
-          chrome.tabs.executeScript({
+          chrome.tabs.executeScript({ //$(document.body).find(\'#nikeAddToCartBt\').detach();
             code: '\
             $(document.body).append("<a href=\\"javascript:\\" id=\\"nikeAddToCartBt\\" style=\\"display:none\\" onclick=\\"nikeAddToCart(\'(US '+chSize+')\', '+chAmount+')\\" data-size=\\"'+chSize+'\\" data-amount=\\"'+chAmount+'\\">ADDTOCART</a>");\
             document.getElementById(\"nikeAddToCartBt\").click();\

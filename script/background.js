@@ -1,4 +1,4 @@
-$.get(chrome.extension.getURL('script/nikeAddToCart.min.js'),
+$.get(chrome.extension.getURL('script/nikeAddToCart.js'),
 	function(data) {
 		var script = document.createElement("script");
 		script.setAttribute("type", "text/javascript");
