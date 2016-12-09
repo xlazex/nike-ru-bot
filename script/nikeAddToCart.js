@@ -19,7 +19,7 @@ function nikeAddToCart(size, amount) {
 	    nikeSetSizeValue();
 	    document.getElementById("buyingtools-add-to-cart-button").click();
 	} else {
-			setTimeout(function(){$(document).find("#nikeAddToCartBt").click()}, 25);
+			setTimeout(function(){$(document).find("#nikeAddToCartBt").click()}, 50);
 			startLogoBlinkInterval(started);
 			started = 1;
 	}
