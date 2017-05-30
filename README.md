@@ -14,5 +14,5 @@
 * In drop-down type size and amount (it's better to use '.' as a size delimeter, i.g. '12.5'; amount = 1)
 * Then click on Start button
 
-NOTE#1: Blinking 'Nike' icon indicates script run 
-NOTE#2: When Tab is closed script job turns off
+### NOTE#1: Blinking 'Nike' icon indicates script run 
+### NOTE#2: When Tab is closed script job turns off
