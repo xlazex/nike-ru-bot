@@ -1,4 +1,4 @@
-# xlazex/nike-ru-bot Google Crhome Extension
+# Google Chrome Extension
 
 ## Setup
 + Clone repo or load .zip file and unzip
